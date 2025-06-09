@@ -167,7 +167,6 @@ vmstatsbot/
 │   │   └── monitor_service.py  # Monitoring
 │   ├── keyboards/       # Telegram keyboards
 │   └────── keyboards.py       # Keyboards
-│   main.py           # Entry point
 ├── config.json           # Configuration
 ├── requirements.txt      # Dependencies
 ├── README.md            # Documentation
