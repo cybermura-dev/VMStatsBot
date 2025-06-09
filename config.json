@@ -1,0 +1,40 @@
+{
+    "bot": {
+        "token": "TELEGRAM_BOT_TOKEN",
+        "admin_ids": [1111111111]
+    },
+    "vm": {
+        "name": "VM_NAME",
+        "connection": {
+            "address": "HOST:PORT",
+            "password": "RDP_PASSWORD",
+            "protocol": "RDP",
+            "rdp_settings": {
+                "username": "RDP_USERNAME",
+                "screen_mode": 1,
+                "desktop_width": 1920,
+                "desktop_height": 1080,
+                "session_bpp": 32
+            }
+        }
+    },
+    "notifications": {
+        "enable": true,
+        "check_interval": 30,
+        "settings": {
+            "start_stop": true,
+            "reboot": true,
+            "status_change": true
+        },
+        "messages": {
+            "start": "🟢 ВМ {vm_name} была запущена",
+            "stop": "🔴 ВМ {vm_name} была остановлена",
+            "reboot": "🔄 ВМ {vm_name} перезагружается",
+            "state_change": "🔄 Состояние ВМ изменилось: {old_state} → {new_state}"
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+    }
+} 
