@@ -163,6 +163,7 @@ vmstatsbot/
 │   │   └── action_log.py  # Logging
 │   ├── services/          # Service classes
 │   │   ├── vm_service.py  # VM service
+│   │   ├── notification_service.py  # Notification service
 │   │   └── monitor_service.py  # Monitoring
 │   ├── keyboards/       # Telegram keyboards
 │   └────── keyboards.py       # Keyboards
