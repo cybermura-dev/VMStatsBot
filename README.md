@@ -88,7 +88,7 @@ VMStatsBot is built on modular architecture principles:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/takeshikodev/VMStatsBot.git
+   git clone https://github.com/cybermura-dev/VMStatsBot.git
    cd VMStatsBot
    ```
 
@@ -194,4 +194,4 @@ Please ensure your code follows the project's coding standards and includes appr
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2025 Takeshiko 
+Copyright (c) 2025 cybermura
